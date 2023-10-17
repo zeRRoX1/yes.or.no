@@ -1,0 +1,16 @@
+﻿<Window x:Class="yes.or.no.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:yes.or.no"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas>
+            <Button Content="Yes" Style="{StaticResource StyleButton}" Canvas.Top="300" Canvas.Right="500" Click="Button_Yes1" MouseMove="Button_Yes" x:Name="yes" />
+            <Button Content="No" Style="{StaticResource StyleButton}" Canvas.Top="300" Canvas.Right="120" Click="Button_Yes1" MouseMove="Button_No" x:Name="no" />
+            <TextBlock Text="You are idiot?" Canvas.Left="100" Canvas.Top="92" Height="100" Width="600" TextAlignment="Center" TextWrapping="NoWrap" Background="#FF7EDAC1" FontSize="72"/>
+        </Canvas>
+    </Grid>
+</Window>
